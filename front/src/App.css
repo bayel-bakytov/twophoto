@@ -1,0 +1,55 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.game_wrapp {
+  position: absolute;
+  width: 500px;
+  height: 700px;
+  border: 1px solid #3c3c3c;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+img {
+  width: 200px;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.first,
+.second {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h2 {
+  align-self: center;
+}
+
+.sex_wrapp {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sex_wrapp div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
